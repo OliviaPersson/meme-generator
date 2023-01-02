@@ -1,0 +1,37 @@
+.header {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 185px;
+    width: 550px;
+    height: 65px;
+    background: linear-gradient(90deg, #002D62 1.18%, #5072A7 100%);
+}
+
+.header-logo-container {
+    display: flex;
+    gap: 7px;
+}
+
+.header-symbol {
+    width: 31.31px;
+    height: 26.22px;
+    margin-left: 20px;
+}
+
+.header-text {
+    margin: 0px;
+    font-family: 'Karla';
+    font-size: 20.7482px;
+    line-height: 24px;
+    letter-spacing: -0.1em;
+    color: #FFFFFF;
+}
+
+.header > p {
+    font-family: 'Inter';
+    font-size: 12px;
+    line-height: 15px;
+    color: #FFFFFF;
+    margin: 25px suto 26px 0px;
+}
