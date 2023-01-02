@@ -1,0 +1,39 @@
+.form {
+    margin: 36px 0px 0px 36px;
+    width: 477px;
+}
+
+.input-fields {
+    display: flex;
+    gap: 17px;
+}
+
+.input-fields > input {
+    border: 1px solid #D5D4D8;
+    border-radius: 4px;
+    width: 230px;
+    height: 35px;
+    color: #0D0D0D;
+    font-family: 'Karla';
+    font-size: 12px;
+    padding-left: 10px;
+}
+
+.submit-button {
+    width: 100%;
+    margin-top: 15px;
+    height: 40px;
+    background: linear-gradient(90.41deg, #002D62 1.14%, #5072A7 100%);
+    border-radius: 5px;
+    color: #FFFFFF;
+    border-color: linear-gradient(90.41deg, #002D62 1.14%, #5072A7 100%);
+    font-family: 'Karla';
+    font-weight: 700;
+    font-size: 16px;
+    letter-spacing: -0.1em;
+}
+
+input:focus {
+    outline: none;
+    box-shadow: 0 0 2px #719ECE;
+}
